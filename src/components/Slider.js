@@ -4,8 +4,8 @@ import { useInView } from 'react-intersection-observer';
 
 export default function Slider({imageSrc, title, subtitle, flipped}) {
     
-    const {ref, inView, entry} = useInView({
-        threshold:0.6,
+    const {ref, inView} = useInView({
+        threshold:0.4,
     });
     const renderContent = () =>{
         if(flipped){
