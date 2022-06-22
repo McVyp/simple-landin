@@ -14,7 +14,9 @@
 .main_title{
     position: absolute;
     bottom: 15%;
+    right:10%;
     color: white;
     font-size: 4rem;
     padding: 15px;
+    display: flex;
 }
